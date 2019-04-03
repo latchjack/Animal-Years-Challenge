@@ -1,0 +1,21 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #bada55;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 25px;
+}
+
+div {
+  text-align: center;
+}
+
+input {
+  font-size: 3rem;
+  background-color: grey;
+  color: black;
+  text-align: center;
+}
