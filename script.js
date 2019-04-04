@@ -1,8 +1,9 @@
 const catYears = 15;
 const dogYears = 15;
 const texty = document.querySelector('#replaceMe');
-// const userYears = prompt('how old are you?');
-// const numby = document.querySelector(input);
+const userYears = prompt('how old are you?');
+
+const numby = userYears * catYears;
 
 // function catNum() {
 //   var totalYears = userYears * catYears;
@@ -11,5 +12,5 @@ const texty = document.querySelector('#replaceMe');
 
 
 converter.addEventListener("input", function(e) {
-  alert(this.value);
+  texty.textContent = numby;
 });
