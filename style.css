@@ -1,9 +1,10 @@
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightblue;
 }
 
 h1 {
-  color: #bada55;
+  color: red;
   text-align: center;
   font-size: 4rem;
   margin-top: 25px;
