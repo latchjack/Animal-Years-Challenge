@@ -6,7 +6,7 @@ const texty = document.querySelector('#replaceMe');
 // const userYears = document.getElementById('converter');
 // const solveIt = document.getElementById(theButton).onclick = calcuLate();
 
-function calcuLate() {
+function calcuLate(inYears) {
   console.log(numby);
 }
 
