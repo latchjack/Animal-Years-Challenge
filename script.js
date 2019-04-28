@@ -1,13 +1,10 @@
-const catYears = 15;
-const userYears = document.querySelector('#inYears');
-const numby = document.getElementById('userYears') * catYears;
+var userAge = prompt("how old are you?");
+// const userAgeOriginal = userAge;
 
-const texty = document.querySelector('#replaceMe');
-
-
-function calcuLate(inYears) {
-  let combination = userYears * catYears;
-  return combination;
-  console.log(numby());
+function catYears() {
+  userAge =+ 15;
+  userAge =+ 9;
+  // userAge * userAgeOriginal;
 }
 
+console.log(catYears(userAge));
