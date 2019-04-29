@@ -10,9 +10,9 @@ numButton.addEventListener('click', function(e) {
 
 
 function catYears() {
-  userAge += 15;
-  userAge += 9;
-  userAge * userAgeOriginal;
+  var newAge = userAge += 15;
+  var newAge = userAge += 9;
+  var newAge = userAge * userAgeOriginal;
 }
 
 console.log(catYears(userAge));
