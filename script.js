@@ -1,18 +1,9 @@
-var userAge = prompt("how old are you?");
-var userAgeOriginal = userAge;
+var firstYear = 15;
+var secondYear = 9;
+var onwardYear = 4;
 
-const texty = document.querySelector('#replace');
-const numButton = document.querySelector('#randomButton');
+var usersAge = prompt('how old are you?');
 
-numButton.addEventListener('click', function(e) {
-  texty.textContent = catYears();
-});
-
-
-function catYears() {
-  var newAge = userAge += 15;
-  var newAge = userAge += 9;
-  var newAge = userAge * userAgeOriginal;
+if(usersAge < firstYear) {
+  console.log('your cat age is 0');
 }
-
-console.log(catYears(userAge));
