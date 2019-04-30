@@ -6,4 +6,4 @@ var usersAge = prompt('how old are you?');
 
 if(usersAge < firstYear) {
   console.log('your cat age is 0');
-}
+}ß
