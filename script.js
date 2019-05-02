@@ -6,4 +6,12 @@ var usersAge = prompt('how old are you?');
 
 if(usersAge < firstYear) {
   console.log('your cat age is 0');
-}ß
+} if else (usersAge > firstYear) {
+  console.log('your cat age is 15');
+} if else (usersAge > secondYear) {
+  console.log('your cat age is 24');
+} if else (usersAge > onwardYear) {
+  console.log('your cat age is 28');
+} else (usersAge > 28) {
+  usersAge += 4
+}
