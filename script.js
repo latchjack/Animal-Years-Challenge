@@ -3,12 +3,9 @@ var firstYear = 15;
 var secondYear = 9;
 var onwardYear = 4;
 
-var usersAge;
-// var usersAge = prompt('how old are you?');
-
 // DOM Selectors
 
-const usersAge = document.getElementById('');
+const usersAge = document.querySelector('#inputNumber');
 
 const texty = document.querySelector('#replace');
 
