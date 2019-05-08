@@ -28,7 +28,6 @@ function convertAge() {
 }
 
 butt.addEventListener('click', function(e) {
-    console.log(usersAge);
     texty.textContent = convertAge();
 });
 }
