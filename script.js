@@ -13,7 +13,6 @@ const butt = document.querySelector('#submitButton')
 
 //Function
 function convertAge() {
-  var usersAge = prompt('how old are you?');
 
   if(usersAge = firstYear) {
     console.log('your cat age is 0');
@@ -25,10 +24,10 @@ function convertAge() {
     console.log('your cat age is 28');
   } else (usersAge > 28); {
     usersAge += 4;
+    return usersAge;
 }
 
 butt.addEventListener('click', function(e) {
-    console.log(usersAge);
-    texty.textContent = convertAge();
+  var usersAge = prompt('how old are you?');
+  texty.textContent = convertAge();
 });
-
