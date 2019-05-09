@@ -11,24 +11,22 @@ const texty = document.querySelector('#replace');
 
 const butt = document.querySelector('#submitButton')
 
-
-//Function
-function convertAge() {
-
-  if(usersAge === firstYear) {
-    console.log('your cat age is 0');
-  } else if (usersAge > firstYear) {
-    console.log('your cat age is 15');
-  } else if (usersAge > secondYear) {
-    console.log('your cat age is 24');
-  } else if (usersAge > onwardYear) {
-    console.log('your cat age is 28');
-  } else (usersAge > 28); {
-    usersAge += 4;
-    return usersAge;
-}
-
 butt.addEventListener('click', function(e) {
   texty.textContent = convertAge();
 });
-}
+
+//Function
+// function convertAge() {
+
+//   if(usersAge === firstYear) {
+//     console.log('your cat age is 0');
+//   } else if (usersAge > firstYear) {
+//     console.log('your cat age is 15');
+//   } else if (usersAge > secondYear) {
+//     console.log('your cat age is 24');
+//   } else if (usersAge > onwardYear) {
+//     console.log('your cat age is 28');
+//   } else (usersAge > 28); {
+//     usersAge += 4;
+//     return usersAge}
+// }
