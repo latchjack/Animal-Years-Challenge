@@ -4,16 +4,42 @@ let firstYear = 15;
 let secondYear = 9;
 let followingYear = 4;
 
-const grabNumber = document.getElementById('usersAge');
+const grabNumber = document.getElementById('usersAge'.value);
 
 const myBtn = document.getElementById('myButton');
 
 myBtn.addEventListener('click', function(e) {
-  console.log(grabNumber.value);
+  console.log(grabNumber);
 });
 
-grabNumber.addEventListener('click', function(e) {
-  function convertAge(usersAge) {
+function convertAge(grabNumber) {
+  if (usersAge < 0) {
+    return "your cat age is 0";
+  } else if (usersAge === 1) {
+    return "your cat age is 15";
+  } else if (usersAge === 2) {
+    return "your cat age is 24"
+  } else if (usersAge > 2) {
+    return "your cat age is 28"
+  } else 
+    return "your cat age is 0";
+  textContent = usersAge;
+  }
+
+// function convertAge(usersAge) {
+//   if (usersAge < 0) {
+//     return "your cat age is 0";
+//   } else if (usersAge === 1) {
+//     return "your cat age is 15";
+//   } else if (usersAge === 2) {
+//     return "your cat age is 24"
+//   } else if (usersAge > 2) {
+//     return "your cat age is 28"
+//   } else 
+//     return "your cat age is 0"
+//   }
+
+  function convertAge(grabNumber) {
     if (usersAge < 0) {
       return "your cat age is 0";
     } else if (usersAge === 1) {
@@ -23,9 +49,9 @@ grabNumber.addEventListener('click', function(e) {
     } else if (usersAge > 2) {
       return "your cat age is 28"
     } else 
-      return "your cat age is 0"
+      return "your cat age is 0";
+    textContent = usersAge;
     }
-});
 
 // Duped for experiment
 
