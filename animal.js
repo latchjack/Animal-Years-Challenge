@@ -12,20 +12,20 @@ myBtn.addEventListener('click', function(e) {
   console.log(grabNumber.value);
 });
 
-// grabNumber.addEventListener('click', function(e) {
-//   function convertAge(usersAge) {
-//     if (usersAge < 0) {
-//       return "your cat age is 0";
-//     } else if (usersAge === 1) {
-//       return "your cat age is 15";
-//     } else if (usersAge === 2) {
-//       return "your cat age is 24"
-//     } else if (usersAge > 2) {
-//       return "your cat age is 28"
-//     } else 
-//       return "your cat age is 0"
-//     }
-// });
+grabNumber.addEventListener('click', function(e) {
+  function convertAge(usersAge) {
+    if (usersAge < 0) {
+      return "your cat age is 0";
+    } else if (usersAge === 1) {
+      return "your cat age is 15";
+    } else if (usersAge === 2) {
+      return "your cat age is 24"
+    } else if (usersAge > 2) {
+      return "your cat age is 28"
+    } else 
+      return "your cat age is 0"
+    }
+});
 
 // Duped for experiment
 
