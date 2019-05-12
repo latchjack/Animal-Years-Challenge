@@ -4,22 +4,43 @@ let firstYear = 15;
 let secondYear = 9;
 let followingYear = 4;
 
-const grabNumber = document.querySelector('#usersAge');
+const grabNumber = document.getElementById('usersAge');
 
-grabNumber.addEventListener('click', function(e) {
-  function convertAge(usersAge) {
-    if (usersAge < 0) {
-      return "your cat age is 0";
-    } else if (usersAge === 1) {
-      return "your cat age is 15";
-    } else if (usersAge === 2) {
-      return "your cat age is 24"
-    } else if (usersAge > 2) {
-      return "your cat age is 28"
-    } else 
-      return "your cat age is 0"
-    }
+const myBtn = document.getElementById('myButton');
+
+myBtn.addEventListener('click', function(e) {
+  console.log(grabNumber)
 });
+
+// grabNumber.addEventListener('click', function(e) {
+//   function convertAge(usersAge) {
+//     if (usersAge < 0) {
+//       return "your cat age is 0";
+//     } else if (usersAge === 1) {
+//       return "your cat age is 15";
+//     } else if (usersAge === 2) {
+//       return "your cat age is 24"
+//     } else if (usersAge > 2) {
+//       return "your cat age is 28"
+//     } else 
+//       return "your cat age is 0"
+//     }
+// });
+
+// Duped for experiment
+
+// grabNumber.addEventListener('click', function convertAge(usersAge) {
+//   if (usersAge < 0) {
+//     return "your cat age is 0";
+//   } else if (usersAge === 1) {
+//     return "your cat age is 15";
+//   } else if (usersAge === 2) {
+//     return "your cat age is 24"
+//   } else if (usersAge > 2) {
+//     return "your cat age is 28"
+//   } else 
+//     return "your cat age is 0"
+// });
 
  
 
