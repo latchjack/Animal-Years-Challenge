@@ -9,7 +9,7 @@ const grabNumber = document.getElementById('usersAge');
 const myBtn = document.getElementById('myButton');
 
 myBtn.addEventListener('click', function(e) {
-  console.log(grabNumber)
+  console.log(grabNumber.value);
 });
 
 // grabNumber.addEventListener('click', function(e) {
